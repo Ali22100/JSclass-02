@@ -5,11 +5,9 @@ const totalSubjects = 3;
 const maxMarksPerSubject = 100;
 const totalMaxMarks = totalSubjects * maxMarksPerSubject;
 
-let english = 85;
-let math = 92;
-let computer = 78;
-
-
+let english = +prompt("Enter your marks in English") ;
+let math = +prompt("Enter your marks in Math") ;
+let computer = +prompt("Enter your marks in Computer") ;
 
 let totalObtained = english + math + computer;
 let percentage = (totalObtained / totalMaxMarks) * 100;
